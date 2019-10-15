@@ -1,0 +1,396 @@
+﻿
+    
+
+body {
+    color: #574c3f;
+    font-family: Corbel, Arial, Helvetica, Verdana, sans-serif;
+    font-size: 16px;
+    background-image:url("Images/rayure_blue.jpg");
+    background-size: cover;
+}
+  
+#wrapper
+{
+    width: 1300px;
+    margin: auto;
+    padding-bottom: 20px;
+    background-color: #ecf0f1;
+    border: 1px solid;
+    border-color: white;
+    border-radius: 25px;
+   
+}
+#Footer {
+    display: block;
+    list-style: none;
+    text-align: center;
+    height: 45px;
+    margin-left: 0px;
+    background-color: #ecf0f1;
+}
+
+#navigation
+{
+    height: 45px;
+    margin-left: 0px;
+    background-color:#ecf0f1;
+
+}
+    
+#nav
+{
+    display: block;
+    list-style: none;
+    text-align: center;
+  
+}
+
+#nav ul {
+    display: none;
+    list-style: none;
+    
+}
+
+#nav li {
+    float: left;
+    display: block;
+    margin-top: 0px;
+    text-transform: uppercase;
+    padding: 0px 20px 0px 20px;
+    border-left: 1px solid black;
+    color: #ecf0f1;
+}
+
+#nav a:link , #nav a :visited, #nav a:active 
+{
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+#nav a:hover {
+    background-color: grey;
+}
+
+#content
+{
+    min-height: 400px;
+    background-color:grey;
+    padding: 0px 20px 0px 20px;
+}   
+#Menu {
+    width: 150px;
+    background-color: silver;
+}
+#Header {
+    color:black;
+    display:block;
+    margin:auto;
+    width: 500px;
+    height: 200px;
+    font-size: 150px;
+    white-space: nowrap;    
+    overflow: hidden;
+    border-radius: 25px;
+    background-image:url("Images/Logo Website.png");
+   
+}   
+p, h2
+{
+    padding: 0px 20px 0px 20px; 
+}
+
+.Panel {
+    float: left;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    border-right: 1px solid black;
+   
+}
+.ProductImage {
+    width:120px;
+    height: 120px;
+    vertical-align: central;
+    padding: 10px;
+    border-radius:50px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+}
+
+.ProductName {
+    font-size: 20px;
+    font-weight: bold;   
+}
+
+.ProductPrice { 
+    font-family: Arial,helvetica,sans-serif;
+    color: #FF8600;
+}
+
+.DetailsImage {
+    width: 400px;
+    height: 400px;
+    margin-right: 20px;
+}
+
+.DetailsDescription {
+width:400px;
+font-style: italic
+}
+
+.DetailsPrice {
+font-size: 24px;
+font-weight: bold;
+}
+
+.button {
+padding: 10px;
+margin: 5px;
+color: #ffffff;
+border: 0;
+border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+clear: both;
+background: linear-gradient(to bottom, darkgreen, green)
+}
+
+.MasterPageButton {
+float: right;
+margin-right:5px;
+border:0;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+background: black;
+color: white; 
+}
+
+.LabelsSorteren {
+margin-left:150px;
+}
+
+.imgBMasterpageNed {
+float: right;
+width:25px;
+height:25px;
+text-align:center;
+margin-right:50px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border: 1px solid black;
+}
+.imgBMasterpageEng {
+float: right;
+width:25px;
+height:25px;
+text-align:center;
+margin-right:5px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border: 1px solid black;
+
+}
+.LoginControl {
+margin:auto;
+
+}
+
+.ErroLogin {
+margin:auto;
+}
+
+.AccountTussenTitels {
+margin-left:40px;
+}
+.AcountInfolbltxt {
+margin-left:10px;
+
+}
+
+.AcountInfolbl {
+margin-left: 20px;
+   
+}
+
+.ControlPanel {
+margin:auto;
+width: 1000px;
+height: 50px;
+text-align: center;
+border: 1px solid black;
+margin-top:5px;
+}
+
+.CartProductImage {
+margin-left:120px;
+float:left; 
+height:50px;
+width:50px;
+border-radius:50px;
+-moz-border-radius:50px;
+-webkit-border-radius:50px;
+
+}
+.CartProductID {
+margin-left:50px;
+float:left;
+text-align: center;
+vertical-align: middle;
+line-height: 50px;  
+
+}
+
+.CartProductName {
+float:left;
+margin-left:120px;
+text-align: center;
+vertical-align: middle;
+line-height: 50px; 
+
+}
+
+
+.CartProductAmount {
+float:right;
+text-align: center;
+vertical-align: middle;
+margin-right:110px;
+line-height: 50px;
+}
+.CartProductPrice {
+float:right;
+text-align: center;
+vertical-align: middle;
+line-height: 50px;
+margin-right:50px;
+}
+
+.CartTitleID {
+margin-left:47px;
+float:left; 
+text-align: center;
+vertical-align: middle;
+line-height: 50px
+}
+
+.CartTitleAfbeelding {
+    margin-left:108px;
+float:left; 
+text-align: center;
+vertical-align: middle;
+line-height: 50px;
+}
+
+.CartTitleNaam {
+    margin-left:109px;
+float:left; 
+text-align: center;
+vertical-align: middle;
+line-height: 50px;
+}
+
+.CartTitleAmount {
+    float:right;
+text-align: center;
+vertical-align: middle;
+margin-right:92px;
+line-height: 50px;
+}
+
+.CartTitlePrice {
+float:right;
+text-align: center;
+vertical-align: middle;
+line-height: 50px;
+margin-right:58px;
+}
+.ControlPanel2 {
+margin:auto;
+width: 1000px;
+height: 50px;
+text-align: center;
+margin-top:5px;
+}
+
+.buttonD {
+padding: 10px;
+margin: 5px;
+color: #ffffff;
+border: 0;
+border-radius: 4px;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+clear: both;
+background: linear-gradient(to bottom, darkred, red)
+}
+
+.TotaalPrijs {
+float:right;
+margin-right:200px;
+margin-top:15px;
+font-family: Arial,helvetica,sans-serif;
+color: #FF8600;
+}
+
+.TxtTotaal {
+float:left;
+margin-left:800px;
+font-weight: bold;  
+margin-top:15px;
+}
+.TotaleHoeveelheid {    
+float:left;
+margin-left:90px;
+margin-top:15px;
+  
+}
+
+.lblOpmerking {
+margin-left:20px;
+}
+
+.btnBestellen {
+float:right;
+margin-top:15px;
+margin-right:200px;
+padding: 10px;
+color: #ffffff;
+border: 0;
+border-radius: 4px;
+-moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        background: linear-gradient(to bottom, darkred, red)
+}
+
+.lblInfo {
+padding-left:20px;
+color:red;
+}
+
+.btnRegistreren {
+    float:right;
+margin-right:470px;
+margin-top:5px;
+
+}
+
+.lblLoginInfo {
+    float:left;
+margin-left:470px;
+margin-top:23px;
+}
+
+.AccountEditTXT {
+margin-left:15px;
+}
+.btnMaakAccount {
+margin-left:15px;
+}
+
+.ddlOrders {
+margin-left:20px;
+}
+.btnDownload {
+    margin-left:20px;
+}

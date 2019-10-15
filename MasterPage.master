@@ -1,0 +1,58 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Gaming Gear</title>
+    <link rel="stylesheet" href="StyleSheet.css" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+    <style type="text/css">
+        #Menu {
+            height: 207px;
+            width: 59px;
+            margin-right: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header id="Header" class="Header">
+        
+    </header>
+    <form id="form1" runat="server">
+    <div>
+        <div id="wrapper">
+           
+       
+            <div id="navigation" style="width: 1301px">
+                <ul id="nav">
+                    <li>
+                        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Home.aspx" 
+                            ForeColor="Black">Startpagina</asp:HyperLink></li>
+                    <li>
+                        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="Producten.aspx" ForeColor="Black">Producten</asp:HyperLink></li>
+                    <li>
+                        <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/About us.aspx" 
+                            ForeColor="Black">Over ons</asp:HyperLink></li>
+                    <li>
+                        <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/AccountInfo.aspx" ForeColor="Black">Account</asp:HyperLink></li>
+                </ul>
+                <asp:ImageButton ID="imgNed" runat="server" CssClass="imgBMasterpageNed" ImageUrl="~/Images/NedFlag.png"/>
+                <asp:ImageButton ID="imgEng" runat="server" CssClass="imgBMasterpageEng" ImageUrl="~/Images/EngFlag.jpg"/>
+                <asp:Button ID="btnLogin" runat="server" Text="Inloggen" CssClass="MasterPageButton"/>
+                <asp:Button ID="btnCart" runat="server" Text="Cart" CssClass="MasterPageButton"/>
+                <br />
+                <hr />
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+             <div id="Footer">
+                 <hr />
+            <p>
+                <asp:Label ID="lblCopyrights" runat="server" Text="Alle rechten voorbehouden aan Anil Özcan™ ©"></asp:Label></p>
+            </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
